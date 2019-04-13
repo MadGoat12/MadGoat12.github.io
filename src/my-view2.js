@@ -1,1 +1,54 @@
-define(["./my-app.js"],function(_myApp){"use strict";function _templateObject_c99ea7405dc111e9addfbb83c5422201(){var data=babelHelpers.taggedTemplateLiteral(["\n      <style include=\"shared-styles\">\n        :host {\n          display: block;\n\n          padding: 10px;\n        }\n      </style>\n\n      <div class=\"card\">\n      <h4>Logical Keyboard Tapper</h4>\n      Andrew \"Slowback1\" Wobeck<br/><br/>\n      \n      <h4>Doodle Manipulators</h4>\n      Andrew \"Slowback1\" Wobeck<br/><br/>\n      \n      VitFerreira<br/><br/>\n      \n      <h4>Creative Keyboard Tappers</h4>\n      Insertusernamehere51<br/><br/>\n      \n      VitFerreira<br/><br/>\n      \n      Feminine Eminem<br/><br/>\n      \n      StreakingSteam<br/><br/>\n      \n      SuperLuigi1026<br/><br/>\n      \n      PK_Water<br/><br/>\n      \n      Leviathan<br/><br/>\n      \n      PKThoron<br/><br/>\n      \n      Woop<br/><br/>\n      \n      ThatGuy456<br/><br/>\n      \n      AdamZam<br/><br/>\n      \n      FishAndChipper<br/><br/>\n      \n      Andrew \"Slowback1\" Wobeck<br/><br/>\n      \n      The-Zekenator<br/><br/>\n      \n      Jackaloped<br/><br/>\n      \n      Cad48<br/><br/>\n      \n      Duncaster<br/><br/>\n      </div>\n    "]);_templateObject_c99ea7405dc111e9addfbb83c5422201=function _templateObject_c99ea7405dc111e9addfbb83c5422201(){return data};return data}var MyView2=function(_PolymerElement){babelHelpers.inherits(MyView2,_PolymerElement);function MyView2(){babelHelpers.classCallCheck(this,MyView2);return babelHelpers.possibleConstructorReturn(this,babelHelpers.getPrototypeOf(MyView2).apply(this,arguments))}babelHelpers.createClass(MyView2,null,[{key:"template",get:function get(){return(0,_myApp.html$1)(_templateObject_c99ea7405dc111e9addfbb83c5422201())}}]);return MyView2}(_myApp.PolymerElement);window.customElements.define("my-view2",MyView2)});
+define(["./my-app.js"],function(_myApp){"use strict";class MyView2 extends _myApp.PolymerElement{static get template(){return _myApp.html$1`
+      <style include="shared-styles">
+        :host {
+          display: block;
+
+          padding: 10px;
+        }
+      </style>
+
+      <div class="card">
+      <h4>Logical Keyboard Tapper</h4>
+      Andrew "Slowback1" Wobeck<br/><br/>
+      
+      <h4>Doodle Manipulators</h4>
+      Andrew "Slowback1" Wobeck<br/><br/>
+      
+      VitFerreira<br/><br/>
+      
+      <h4>Creative Keyboard Tappers</h4>
+      Insertusernamehere51<br/><br/>
+      
+      VitFerreira<br/><br/>
+      
+      Feminine Eminem<br/><br/>
+      
+      StreakingSteam<br/><br/>
+      
+      SuperLuigi1026<br/><br/>
+      
+      PK_Water<br/><br/>
+      
+      Leviathan<br/><br/>
+      
+      PKThoron<br/><br/>
+      
+      Woop<br/><br/>
+      
+      ThatGuy456<br/><br/>
+      
+      AdamZam<br/><br/>
+      
+      FishAndChipper<br/><br/>
+      
+      Andrew "Slowback1" Wobeck<br/><br/>
+      
+      The-Zekenator<br/><br/>
+      
+      Jackaloped<br/><br/>
+      
+      Cad48<br/><br/>
+      
+      Duncaster<br/><br/>
+      </div>
+    `}}window.customElements.define("my-view2",MyView2)});
